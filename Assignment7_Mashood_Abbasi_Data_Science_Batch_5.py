@@ -2,7 +2,7 @@ import streamlit as st
 import io
 import random
 from datetime import datetime
-from reportlab.lib.pagesizes import A4
+#from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 
 # ---------------- PAGE CONFIG ----------------
@@ -145,4 +145,5 @@ if "ticket" in st.session_state:
 st.markdown(
     f"<hr><p style='text-align:center;font-size:12px;'>{COPYRIGHT_TEXT}</p>",
     unsafe_allow_html=True
+
 )
