@@ -2,7 +2,7 @@ import streamlit as st
 import io
 import random
 from datetime import datetime
-#from reportlab.lib.pagesizes import A4
+from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 
 # ---------------- PAGE CONFIG ----------------
@@ -147,3 +147,4 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
